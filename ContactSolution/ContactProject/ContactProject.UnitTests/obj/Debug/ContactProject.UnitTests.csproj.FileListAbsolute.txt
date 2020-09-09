@@ -1,0 +1,17 @@
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\obj\Debug\ContactProject.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\ContactProject.UnitTests.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\ContactProject.UnitTests.pdb
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\ContactProject.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\ContactProject.pdb
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\obj\Debug\ContactProject.UnitTests.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\obj\Debug\ContactProject.UnitTests.pdb
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Unity.Mvc3.dll
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\lenovo\ContactSolution\ContactProject.UnitTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

@@ -1,0 +1,73 @@
+﻿@model List<ContactProject.Models.ContactModel>
+
+@{
+    ViewBag.Title = "List of Contacts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of Contacts</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div>
+<table>
+    <tr>
+        <th>
+            FirstName
+        </th>
+        <th>
+            LastName
+        </th>
+        <th>
+            EMail
+        </th>
+       
+        <th>
+            PhoneNo
+        </th>
+    
+        <th>
+            Active / Inactive
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+                @Html.ValidationMessageFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+                 @Html.ValidationMessageFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EMail)
+                 @Html.ValidationMessageFor(modelItem => item.EMail)
+            </td>
+    
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+                 @Html.ValidationMessageFor(modelItem => item.PhoneNo)
+            </td>
+    
+            <td>
+                @(item.Status ? "Active" : "Inactive")
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ContactId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ContactId }) |
+                @if(item.Status)
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ContactId })
+                }
+                
+            </td>
+        </tr>
+       
+    }
+
+</table>
+</div>

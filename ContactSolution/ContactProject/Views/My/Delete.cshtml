@@ -1,0 +1,34 @@
+﻿@model ContactProject.Models.ContactModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>contact</legend>
+
+    <div class="display-label"><b>FirstName:</b>  @Html.DisplayFor(model => model.FirstName)</div>
+    <br />
+
+    <div class="display-label"><b>LastName:</b> @Html.DisplayFor(model => model.LastName)</div>
+
+     <br />
+    <div class="display-label"><b>EMail:</b>  @Html.DisplayFor(model => model.EMail)</div>
+    
+     <br />
+  
+    <div class="display-label"><b>PhoneNo:</b> @Html.DisplayFor(model => model.PhoneNo)</div>
+    
+     <br />
+    <div class="display-label"><b>Status:</b>  @(Model.Status ? "Active" : "Inactive") </div>
+    
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

@@ -1,0 +1,41 @@
+﻿@model ContactProject.Models.ContactModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>contact</legend>
+
+    <div class="display-label">FirstName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FirstName)
+    </div>
+
+    <div class="display-label">LastName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastName)
+    </div>
+
+    <div class="display-label">EMail</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EMail)
+    </div>
+
+    <div class="display-label">PhoneNo</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PhoneNo)
+    </div>
+
+  
+    <div class="display-label">Active / Inactive</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Status)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ContactId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,13 @@
+C:\Users\lenovo\Downloads\LearningMVCRepoPattern\LearningMVCRepoPattern\LearningMVC\obj\Debug\LearningMVC.dll
+C:\Users\lenovo\Downloads\LearningMVCRepoPattern\LearningMVCRepoPattern\LearningMVC\obj\Debug\LearningMVC.pdb
+C:\Users\lenovo\Downloads\LearningMVCRepoPattern\LearningMVCRepoPattern\LearningMVC\bin\LearningMVC.dll
+C:\Users\lenovo\Downloads\LearningMVCRepoPattern\LearningMVCRepoPattern\LearningMVC\bin\LearningMVC.pdb
+C:\Users\lenovo\Downloads\LearningMVCRepoPattern\LearningMVCRepoPattern\LearningMVC\bin\EntityFramework.dll
+C:\Users\lenovo\Downloads\LearningMVCRepoPattern\LearningMVCRepoPattern\LearningMVC\bin\EntityFramework.xml
+C:\Users\lenovo\ContactSolution\ContactProject\bin\ContactProject.dll
+C:\Users\lenovo\ContactSolution\ContactProject\bin\ContactProject.pdb
+C:\Users\lenovo\ContactSolution\ContactProject\bin\EntityFramework.dll
+C:\Users\lenovo\ContactSolution\ContactProject\bin\EntityFramework.xml
+C:\Users\lenovo\ContactSolution\ContactProject\obj\Debug\ContactProject.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\ContactSolution\ContactProject\obj\Debug\ContactProject.dll
+C:\Users\lenovo\ContactSolution\ContactProject\obj\Debug\ContactProject.pdb
