@@ -1,4 +1,6 @@
-# ContactRepo
+# ContactsRepositoryForInteview
+ContactsRepositoryForInteview
+
 
 1) Create database
 
@@ -9,7 +11,7 @@
 2) Modify connecting string in webconfig file to point to correct SQL server where above database is created
 
 
-3) Project contains 2 solutions 
+3) Solution Contains two projects
     1)ContactProject  - MVC web application using Model ,view , controller 
                       with views Create. update, details, delete(soft delete- Active/inactive), List
                       
@@ -19,7 +21,7 @@
 
 4) Contact Project Details Structure
 
-- Repository pattern is used as solution is decouped from database provider and we can use different database like oracle,Mysql,
+- Repository pattern is used as solution to decouple the data access from database provider and we can use different database like oracle,Mysql,
   or any NO relational Db with minimal code change
 
 - .\Repository\IContactRepository - Inteface with insert,update,delete,List like CRUD operations
@@ -49,10 +51,5 @@
 
 5) Application_Images - contains images of application in running state
 
-
-
- 
-
- 
 
 
